@@ -1,0 +1,48 @@
+.container {
+    background-color: #27282F;
+    min-height: 100vh;
+    color: #FFF;
+}
+
+.main {
+    margin: auto;
+    max-width: 980px;
+    padding: 35px 0;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.photoGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.form {
+    margin-bottom: 30px;
+    background-color: #3D3F43;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form input[type="submit"]{
+    padding: 10px 20px;
+    background-color: rgb(104, 12, 196);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.form input[type="submit"]:hover {
+    opacity: .8;
+}
